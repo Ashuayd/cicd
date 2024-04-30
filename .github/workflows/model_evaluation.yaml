@@ -2,8 +2,8 @@
 name: model-training
 on: [push]
 jobs:
-  permissions: write-all
   run:
+    permissions: write-all
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
