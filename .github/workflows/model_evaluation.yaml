@@ -16,6 +16,4 @@ jobs:
           cat metrics.txt
           cat metrics.txt >> report.md
           cml-send-comment report.md
-	  echo "# CML report" >> report.md
-          echo '![](./plot.png "Confusion Matrix")' >> report.md
-          cml comment create report.md
+		
